@@ -30,10 +30,10 @@ class WhatsAPIDriverStatus(object):
     NotLoggedIn = 'NotLoggedIn'
     LoggedIn = 'LoggedIn'
 
-from consts import Selectors, URL
-from objects.chat import Chat, GroupChat, UserChat
-from objects.contact import Contact
-from objects.message import Message, MessageGroup
+from webwhatsapi.consts import Selectors, URL
+from webwhatsapi.objects.chat import Chat, GroupChat, UserChat
+from webwhatsapi.objects.contact import Contact
+from webwhatsapi.objects.message import Message, MessageGroup
 from webwhatsapi.wapi_js_wrapper import WapiJsWrapper
 
 if __debug__:
